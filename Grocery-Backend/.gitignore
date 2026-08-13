@@ -1,0 +1,26 @@
+# Maven
+target/
+
+# Eclipse / Spring Tool Suite
+.metadata/
+.settings/
+.classpath
+.factorypath
+.project
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Payment Microservice
+Payment_Service(Microservices)/
