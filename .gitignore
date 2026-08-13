@@ -27,3 +27,5 @@ Payment_Service(Microservices)/
 
 # Ignore frontend folder
 /frontend/
+
+/Grocery-Backend/frontend/
