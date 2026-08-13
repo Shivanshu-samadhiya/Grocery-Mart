@@ -1,0 +1,8 @@
+/* GroceryMart App Stylesheet */
+.hover-link {
+  transition: var(--gm-transition);
+}
+.hover-link:hover {
+  color: var(--gm-primary) !important;
+  padding-left: 2px;
+}
