@@ -25,7 +25,5 @@ Thumbs.db
 # Ignore Payment Microservice
 Payment_Service(Microservices)/
 
-# Ignore frontend folder
-/frontend/
-
+# Ignore old nested frontend
 /Grocery-Backend/frontend/
