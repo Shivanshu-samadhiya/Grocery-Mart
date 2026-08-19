@@ -18,7 +18,6 @@ Grocery Mart provides an end-to-end digital grocery shopping workflow. Customers
 - [Supplier Flow](#3-supplier-product-and-order-flow)
 - [Delivery Agent Flow](#4-delivery-agent-flow)
 - [Authentication and Authorization](#-authentication-and-authorization)
-- [Payment Flow](#-razorpay-payment-flow)
 - [Inventory and Order Processing](#-inventory-and-order-processing)
 - [Database](#-database)
 - [Project Structure](#-suggested-project-structure)
@@ -475,40 +474,6 @@ The project uses role-based authorization so that users only access resources pe
 | Admin | Users, Products, Categories, Orders, Suppliers, Delivery Agents |
 | Supplier | Own Products, Own Stock, Related Orders, Supplier Dashboard |
 | Delivery Agent | Assigned Orders, Delivery Status, Delivery History |
-
----
-
-# 💳 Razorpay Payment Flow
-
-The payment process is not handled only on the frontend.
-
-The project follows a backend-assisted payment workflow:
-
-```text
-Customer
-   ↓
-Checkout
-   ↓
-React Frontend
-   ↓
-Spring Boot Backend
-   ↓
-Create Razorpay Order
-   ↓
-Razorpay Checkout
-   ↓
-Payment
-   ↓
-Payment Response
-   ↓
-Backend Signature Verification
-   ↓
-Payment Status Persisted
-   ↓
-Order Payment Confirmed
-```
-
-This approach allows the backend to verify the payment before the order is considered successfully paid.
 
 ---
 
