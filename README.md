@@ -872,18 +872,3 @@ The project combines **React.js**, **Spring Boot**, **Spring Security/JWT**, **S
 
 ---
 
-## 👨‍💻 Project Team
-
-**Shivanshu Samadhiya** — Roll No. 262091  
-**Gaurav Keshav Chaple** — Roll No. 262032
-
-**Institute:** Institute for Advanced Computing and Software Development (IACSD), Akurdi, Pune
-
-**Program:** PGCP-AC — February 2026
-
----
-
-## 📚 Project Documentation
-
-The complete project report contains the system requirements, ER diagram, use-case diagram, data-flow diagrams, activity diagrams, class diagram, component/sequence diagrams, database design, application snapshots, conclusion, and future scope.
-
